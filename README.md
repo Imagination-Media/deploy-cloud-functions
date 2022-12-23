@@ -98,6 +98,8 @@ jobs:
 
 - `ingress_settings`: (Optional) The ingress settings for the function, controlling what traffic can reach it.
 
+- `gen2`: (Optional) Create a gen2 function. This field expects 1 (enabled) or 0 (disabled) as the value.
+
 - `secret_environment_variables`: (Optional) List of key-value pairs to set as
   environment variables at runtime of the format `KEY1=SECRET_VERSION_REF` where
   `SECRET_VERSION_REF` is a full resource name of a Google Secret Manager secret
